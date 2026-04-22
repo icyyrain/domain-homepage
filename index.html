@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="一个简洁、快速、可部署到 Cloudflare Pages 的网站模板。">
+  <title>我的网站</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到首页">我的网站</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#about">介绍</a>
+      <a href="#work">内容</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Cloudflare Pages Ready</p>
+        <h1 id="hero-title">把你的域名变成一个正式的网站</h1>
+        <p class="hero-copy">这里可以放你的个人介绍、项目说明、公司业务或作品集。模板是纯静态页面，上传到 Cloudflare Pages 后即可访问。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">联系我</a>
+          <a class="button secondary" href="#work">查看内容</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="网站状态">
+        <div class="status-row">
+          <span>部署方式</span>
+          <strong>Cloudflare Pages</strong>
+        </div>
+        <div class="status-row">
+          <span>页面类型</span>
+          <strong>静态网站</strong>
+        </div>
+        <div class="status-row">
+          <span>域名绑定</span>
+          <strong>自定义域名</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>这里写你是谁，以及这个网站做什么</h2>
+      </div>
+      <p class="section-copy">把这段改成你的真实介绍。例如：我是某某，专注于某某方向；这个网站用于展示作品、发布文章、介绍服务或提供联系方式。</p>
+    </section>
+
+    <section class="section muted" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Highlights</p>
+        <h2>可以展示的内容</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>项目介绍</h3>
+          <p>放你的产品、研究、作品或业务说明。</p>
+        </article>
+        <article class="feature-card">
+          <h3>文章与动态</h3>
+          <p>放近期更新、博客入口或公告内容。</p>
+        </article>
+        <article class="feature-card">
+          <h3>联系方式</h3>
+          <p>放邮箱、微信、GitHub、LinkedIn 或其他链接。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>联系我</h2>
+        <p class="section-copy">把下面的邮箱换成你的真实联系方式。</p>
+      </div>
+      <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 我的网站</span>
+    <span>Powered by Cloudflare Pages</span>
+  </footer>
+</body>
+</html>
